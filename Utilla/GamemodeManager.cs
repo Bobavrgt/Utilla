@@ -118,8 +118,17 @@ namespace Utilla
 					transform = "Beach/BeachComputer (1)/GameModeSelector/Selector Buttons (1)",
 					anchorPath = "anchor"
 				}
-			}
-		};
+				},
+		           {
+					"Bayou",
+					new GameModeSelectorPath()
+					{
+						name = "BayouSelector",
+						transform = "BayouMain/ComputerArea/GameModeSelector/Selector Buttons (1)",
+						anchorPath = "anchor"
+					}
+					}
+					};
 
 		public void Start()
 		{
